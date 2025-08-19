@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #25424a;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
