@@ -17,15 +17,40 @@
                             **     
 ---hajs are blue-----------------*/
 
+@font-face {
+    font-family: Comic-Sans-MS;
+    src: url("font/comic-sans-ms.ttf");
+}
+
 body {
     margin: 0;
     background-color: #25424a;
+    padding: 100px 0;
+    color: white;
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    font-family: Comic-Sans-MS;
 }
 
-main {
+header, main, footer, #content-div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+p, ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#content-div {
+    gap: 20px;
+}
+
+#socials-div {
+    display: flex;
 }
