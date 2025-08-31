@@ -31,19 +31,28 @@ body {
     font-family: Comic-Sans-MS;
 }
 
-header, main, footer, #content-div, #project-list > li > div {
+header, footer, #content-div, main > div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-p, ul {
-    margin: 0;
+button {
+    font-family: Comic-Sans-MS;
+    font-size: 18px;
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+p, ul, h2 {
+    margin: 0;
+}
+
+main > div {
+    gap: 20px;
 }
 
 #content-div {
@@ -52,4 +61,45 @@ ul {
 
 #socials-div, #project-list {
     display: flex;
+}
+
+#nerd-div > div {
+    width: 738px;
+}
+
+/* --- Syntax highlights --- */
+
+.hl-comment {
+    color: #8B949E;
+    font-style: italic;
+}
+
+.hl-ident {
+    color: #79C0FF;
+}
+
+.hl-keyword {
+    color: #FF7B72;
+}
+
+.hl-method, .hl-type {
+    color: #F0883E;
+    font-weight: bold;    
+}
+
+.hl-operator {
+    color: #FF7B72;
+    font-weight: bold;
+}
+
+.hl-parent {
+    color: #E6EDF3;
+}
+
+.hl-separator {
+    color: #E6EDF3;
+}
+
+.hl-string {
+    color: #A5D6FF;
 }
